@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 public class WordFrequencyGameTest {
     //TODO: Rename every test case name using when given then
     @Test
-    public void should_get_the_1_when_input_the() throws Exception {
+    public void should_return_the_1_when_input_given_the() throws Exception {
         //Given
         String inputStr = "the";
         String expectResult = "the 1";
@@ -52,6 +52,7 @@ public class WordFrequencyGameTest {
         String expectResult = "is 2\nthe 1";
         validate_Input_words_process_to_expected_word(inputStr, expectResult);
     }
+
 
     private void validate_Input_words_process_to_expected_word(String inputStr, String expectResult) {
         WordFrequencyGame game = new WordFrequencyGame();

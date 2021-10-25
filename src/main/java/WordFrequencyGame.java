@@ -1,10 +1,13 @@
 import java.util.*;
 
 public class WordFrequencyGame {
+    public static final String STRING = "1";
+    public static final String FREQUENCY_ONE = " 1";
+
     public String getResult(String sentence){
 
         if (sentence.split("\\s+").length==1) {
-            return sentence + " 1";
+            return sentence + FREQUENCY_ONE;
         } else {
 
             try {
