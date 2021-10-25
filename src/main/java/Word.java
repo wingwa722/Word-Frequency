@@ -1,11 +1,11 @@
 //rename: Input -> Word
-public class Input {
+public class Word {
     private String value;
     private int count;
     //rename: value -> word
-    public Input(String w, int i){
-        this.value =w;
-        this.count =i;
+    public Word(String word, int count){
+        this.value =word;
+        this.count =count;
     }
 
 
